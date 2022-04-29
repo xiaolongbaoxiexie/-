@@ -1,0 +1,23 @@
+/*公共样式*/
+.clearfix::before,
+.clearfix::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+a{/*设置所有超链接的样式*/
+	text-decoration: none;
+	color: #333;
+	
+}
+
+body{/*统一网页字体样式*/
+	font: 14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+	color: #333;
+	min-width: 1226px;/*不让body过小导致容器溢出*/
+}
+.wrap{/*设置一个类，用来展示中间容器的宽度,设置容器居中*/
+	width: 1226px;
+	margin: 0 auto;
+}
+
